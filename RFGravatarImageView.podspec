@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/ruddfawcett/RFGravatarImageView.git", :tag => "v1.1" }
   s.source_files  = 'RFGravatarImageView', 'RFGravatarImageView/**/*.{h,m}'
-  s.dependency 'SDWebImage', '~> 3.7'
+  s.dependency 'SDWebImage', '~> 5.9.2'
   s.framework = 'UIKit'
   s.requires_arc = true
 end
